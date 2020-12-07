@@ -1,0 +1,22 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env MODE=dev nuxt",
+    "build": "cross-env MODE=dev nuxt build",
+    "start": "cross-env MODE=dev nuxt start",
+    "generate": "cross-env MODE= nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/proxy": "^2.0.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
+    "postcss-px2rem": "^0.3.0"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+  }
+}

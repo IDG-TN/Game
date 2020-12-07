@@ -1,0 +1,34 @@
+<template>
+  <div class="container">
+    <div class="header">
+      
+    </div>
+    <div class="section">
+
+    </div>
+    <div class="footer">
+
+    </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style lang="scss">
+.container{
+  width: 3.47rem;
+
+  height:5rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0.1rem auto;
+  bac
+  .header{
+    width: 100%;
+  }
+}
+
+</style>

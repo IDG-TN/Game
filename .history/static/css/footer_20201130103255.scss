@@ -1,0 +1,17 @@
+.footer {
+    width: 3.75rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #111111;
+    overflow: hidden;
+    margin: 0.3rem 0 -0.14rem -0.14rem;
+    p {
+      font-size: 0.12rem;
+      text-align: center;
+      margin: 0.04rem 0;
+      color: #fff;
+    }
+  }
